@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "QTTabbarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    _window.backgroundColor = [UIColor whiteColor];
+    
+    QTTabbarController *tab = [[QTTabbarController alloc] init];
+    self.window.rootViewController = tab;
+    
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

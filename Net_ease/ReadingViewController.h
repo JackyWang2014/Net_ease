@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ReadingViewController.h
 //  Net_ease
 //
 //  Created by 王亓泰 on 16/4/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ReadingViewController : UIViewController
 
 @end
-

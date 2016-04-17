@@ -9,10 +9,24 @@
 /* Begin PBXBuildFile section */
 		FC7F56971CC332E600BAFF4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F56961CC332E600BAFF4B /* main.m */; };
 		FC7F569A1CC332E600BAFF4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F56991CC332E600BAFF4B /* AppDelegate.m */; };
-		FC7F569D1CC332E600BAFF4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F569C1CC332E600BAFF4B /* ViewController.m */; };
 		FC7F56A01CC332E600BAFF4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7F569E1CC332E600BAFF4B /* Main.storyboard */; };
 		FC7F56A21CC332E600BAFF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7F56A11CC332E600BAFF4B /* Assets.xcassets */; };
 		FC7F56A51CC332E600BAFF4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7F56A31CC332E600BAFF4B /* LaunchScreen.storyboard */; };
+		FC7F56AD1CC33A1E00BAFF4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7F56AC1CC33A1E00BAFF4B /* Images.xcassets */; };
+		FC7F56F61CC33D9500BAFF4B /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F56F51CC33D9500BAFF4B /* NewsViewController.m */; };
+		FC7F56F91CC33DA000BAFF4B /* ReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F56F81CC33DA000BAFF4B /* ReadingViewController.m */; };
+		FC7F56FC1CC33DAA00BAFF4B /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F56FB1CC33DAA00BAFF4B /* VideoViewController.m */; };
+		FC7F56FF1CC33DB300BAFF4B /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F56FE1CC33DB300BAFF4B /* TopicViewController.m */; };
+		FC7F57021CC33DBC00BAFF4B /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F57011CC33DBC00BAFF4B /* MeViewController.m */; };
+		FC7F57051CC33EF600BAFF4B /* QTTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F57041CC33EF600BAFF4B /* QTTabbarController.m */; };
+		FC7F57081CC3645200BAFF4B /* QTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F57071CC3645200BAFF4B /* QTNavigationController.m */; };
+		FC7F570D1CC36D4100BAFF4B /* UIBarButtonItem+QTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F570A1CC36D4100BAFF4B /* UIBarButtonItem+QTExtension.m */; };
+		FC7F570E1CC36D4100BAFF4B /* UIView+QTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F570C1CC36D4100BAFF4B /* UIView+QTExtension.m */; };
+		FC7F57131CC375E100BAFF4B /* EntertainmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F57121CC375E100BAFF4B /* EntertainmentController.m */; };
+		FC7F57161CC3761C00BAFF4B /* HeaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F57151CC3761C00BAFF4B /* HeaderController.m */; };
+		FC7F57191CC3763000BAFF4B /* HotController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F57181CC3763000BAFF4B /* HotController.m */; };
+		FC7F571C1CC3765400BAFF4B /* SportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F571B1CC3765400BAFF4B /* SportsController.m */; };
+		FC7F571F1CC3766100BAFF4B /* LocalController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F571E1CC3766100BAFF4B /* LocalController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +34,40 @@
 		FC7F56961CC332E600BAFF4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC7F56981CC332E600BAFF4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC7F56991CC332E600BAFF4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC7F569B1CC332E600BAFF4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FC7F569C1CC332E600BAFF4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FC7F569F1CC332E600BAFF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC7F56A11CC332E600BAFF4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC7F56A41CC332E600BAFF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC7F56A61CC332E600BAFF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7F56AC1CC33A1E00BAFF4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC7F56F41CC33D9500BAFF4B /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		FC7F56F51CC33D9500BAFF4B /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		FC7F56F71CC33DA000BAFF4B /* ReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingViewController.h; sourceTree = "<group>"; };
+		FC7F56F81CC33DA000BAFF4B /* ReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingViewController.m; sourceTree = "<group>"; };
+		FC7F56FA1CC33DAA00BAFF4B /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		FC7F56FB1CC33DAA00BAFF4B /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		FC7F56FD1CC33DB300BAFF4B /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
+		FC7F56FE1CC33DB300BAFF4B /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
+		FC7F57001CC33DBC00BAFF4B /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		FC7F57011CC33DBC00BAFF4B /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		FC7F57031CC33EF600BAFF4B /* QTTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTTabbarController.h; sourceTree = "<group>"; };
+		FC7F57041CC33EF600BAFF4B /* QTTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTTabbarController.m; sourceTree = "<group>"; };
+		FC7F57061CC3645200BAFF4B /* QTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTNavigationController.h; sourceTree = "<group>"; };
+		FC7F57071CC3645200BAFF4B /* QTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTNavigationController.m; sourceTree = "<group>"; };
+		FC7F57091CC36D4100BAFF4B /* UIBarButtonItem+QTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+QTExtension.h"; path = "../UIBarButtonItem+QTExtension.h"; sourceTree = "<group>"; };
+		FC7F570A1CC36D4100BAFF4B /* UIBarButtonItem+QTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+QTExtension.m"; path = "../UIBarButtonItem+QTExtension.m"; sourceTree = "<group>"; };
+		FC7F570B1CC36D4100BAFF4B /* UIView+QTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+QTExtension.h"; path = "../UIView+QTExtension.h"; sourceTree = "<group>"; };
+		FC7F570C1CC36D4100BAFF4B /* UIView+QTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+QTExtension.m"; path = "../UIView+QTExtension.m"; sourceTree = "<group>"; };
+		FC7F570F1CC36D5B00BAFF4B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FC7F57111CC375E100BAFF4B /* EntertainmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntertainmentController.h; sourceTree = "<group>"; };
+		FC7F57121CC375E100BAFF4B /* EntertainmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntertainmentController.m; sourceTree = "<group>"; };
+		FC7F57141CC3761C00BAFF4B /* HeaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderController.h; sourceTree = "<group>"; };
+		FC7F57151CC3761C00BAFF4B /* HeaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderController.m; sourceTree = "<group>"; };
+		FC7F57171CC3763000BAFF4B /* HotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotController.h; sourceTree = "<group>"; };
+		FC7F57181CC3763000BAFF4B /* HotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotController.m; sourceTree = "<group>"; };
+		FC7F571A1CC3765400BAFF4B /* SportsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsController.h; sourceTree = "<group>"; };
+		FC7F571B1CC3765400BAFF4B /* SportsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsController.m; sourceTree = "<group>"; };
+		FC7F571D1CC3766100BAFF4B /* LocalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalController.h; sourceTree = "<group>"; };
+		FC7F571E1CC3766100BAFF4B /* LocalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +100,35 @@
 		FC7F56941CC332E600BAFF4B /* Net_ease */ = {
 			isa = PBXGroup;
 			children = (
+				FC7F57091CC36D4100BAFF4B /* UIBarButtonItem+QTExtension.h */,
+				FC7F570A1CC36D4100BAFF4B /* UIBarButtonItem+QTExtension.m */,
+				FC7F570B1CC36D4100BAFF4B /* UIView+QTExtension.h */,
+				FC7F570C1CC36D4100BAFF4B /* UIView+QTExtension.m */,
 				FC7F56981CC332E600BAFF4B /* AppDelegate.h */,
 				FC7F56991CC332E600BAFF4B /* AppDelegate.m */,
-				FC7F569B1CC332E600BAFF4B /* ViewController.h */,
-				FC7F569C1CC332E600BAFF4B /* ViewController.m */,
+				FC7F57061CC3645200BAFF4B /* QTNavigationController.h */,
+				FC7F57071CC3645200BAFF4B /* QTNavigationController.m */,
+				FC7F57031CC33EF600BAFF4B /* QTTabbarController.h */,
+				FC7F57041CC33EF600BAFF4B /* QTTabbarController.m */,
+				FC7F56F41CC33D9500BAFF4B /* NewsViewController.h */,
+				FC7F56F51CC33D9500BAFF4B /* NewsViewController.m */,
+				FC7F57141CC3761C00BAFF4B /* HeaderController.h */,
+				FC7F57151CC3761C00BAFF4B /* HeaderController.m */,
+				FC7F57111CC375E100BAFF4B /* EntertainmentController.h */,
+				FC7F57121CC375E100BAFF4B /* EntertainmentController.m */,
+				FC7F57171CC3763000BAFF4B /* HotController.h */,
+				FC7F57181CC3763000BAFF4B /* HotController.m */,
+				FC7F571A1CC3765400BAFF4B /* SportsController.h */,
+				FC7F571B1CC3765400BAFF4B /* SportsController.m */,
+				FC7F571D1CC3766100BAFF4B /* LocalController.h */,
+				FC7F571E1CC3766100BAFF4B /* LocalController.m */,
+				FC7F57101CC375AA00BAFF4B /* ViewControllers */,
 				FC7F569E1CC332E600BAFF4B /* Main.storyboard */,
 				FC7F56A11CC332E600BAFF4B /* Assets.xcassets */,
 				FC7F56A31CC332E600BAFF4B /* LaunchScreen.storyboard */,
 				FC7F56A61CC332E600BAFF4B /* Info.plist */,
+				FC7F56AC1CC33A1E00BAFF4B /* Images.xcassets */,
+				FC7F570F1CC36D5B00BAFF4B /* PrefixHeader.pch */,
 				FC7F56951CC332E600BAFF4B /* Supporting Files */,
 			);
 			path = Net_ease;
@@ -77,6 +140,21 @@
 				FC7F56961CC332E600BAFF4B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC7F57101CC375AA00BAFF4B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F56F71CC33DA000BAFF4B /* ReadingViewController.h */,
+				FC7F56F81CC33DA000BAFF4B /* ReadingViewController.m */,
+				FC7F56FA1CC33DAA00BAFF4B /* VideoViewController.h */,
+				FC7F56FB1CC33DAA00BAFF4B /* VideoViewController.m */,
+				FC7F56FD1CC33DB300BAFF4B /* TopicViewController.h */,
+				FC7F56FE1CC33DB300BAFF4B /* TopicViewController.m */,
+				FC7F57001CC33DBC00BAFF4B /* MeViewController.h */,
+				FC7F57011CC33DBC00BAFF4B /* MeViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7F56A51CC332E600BAFF4B /* LaunchScreen.storyboard in Resources */,
+				FC7F56AD1CC33A1E00BAFF4B /* Images.xcassets in Resources */,
 				FC7F56A21CC332E600BAFF4B /* Assets.xcassets in Resources */,
 				FC7F56A01CC332E600BAFF4B /* Main.storyboard in Resources */,
 			);
@@ -149,9 +228,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7F569D1CC332E600BAFF4B /* ViewController.m in Sources */,
+				FC7F56FC1CC33DAA00BAFF4B /* VideoViewController.m in Sources */,
+				FC7F570D1CC36D4100BAFF4B /* UIBarButtonItem+QTExtension.m in Sources */,
+				FC7F56F61CC33D9500BAFF4B /* NewsViewController.m in Sources */,
+				FC7F57191CC3763000BAFF4B /* HotController.m in Sources */,
+				FC7F57021CC33DBC00BAFF4B /* MeViewController.m in Sources */,
+				FC7F57081CC3645200BAFF4B /* QTNavigationController.m in Sources */,
+				FC7F56FF1CC33DB300BAFF4B /* TopicViewController.m in Sources */,
+				FC7F570E1CC36D4100BAFF4B /* UIView+QTExtension.m in Sources */,
+				FC7F57161CC3761C00BAFF4B /* HeaderController.m in Sources */,
+				FC7F57051CC33EF600BAFF4B /* QTTabbarController.m in Sources */,
 				FC7F569A1CC332E600BAFF4B /* AppDelegate.m in Sources */,
+				FC7F571F1CC3766100BAFF4B /* LocalController.m in Sources */,
 				FC7F56971CC332E600BAFF4B /* main.m in Sources */,
+				FC7F57131CC375E100BAFF4B /* EntertainmentController.m in Sources */,
+				FC7F56F91CC33DA000BAFF4B /* ReadingViewController.m in Sources */,
+				FC7F571C1CC3765400BAFF4B /* SportsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +353,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchScreen;
+				GCC_PREFIX_HEADER = Net_ease/PrefixHeader.pch;
 				INFOPLIST_FILE = Net_ease/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WQT.Net-ease";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +367,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchScreen;
+				GCC_PREFIX_HEADER = Net_ease/PrefixHeader.pch;
 				INFOPLIST_FILE = Net_ease/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WQT.Net-ease";
 				PRODUCT_NAME = "$(TARGET_NAME)";
